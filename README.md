@@ -1,7 +1,7 @@
 # AbuseIPDB-CLI for Bash
 A small script for looking up IPs in AbuseIPDB from your command line.
 
-Written from scratch for APIv2 and inspired by AbuseIPDB Tools by GethPrime for (*now defunct*) APIv1.
+Written from scratch for APIv2 and inspired by AbuseIPDB Tools by **GethPrime** for (*now defunct*) APIv1.
 
 ## Installation
 * Clone the project or download the raw .sh file
@@ -16,7 +16,7 @@ $ sudo apt install jq curl
 * Now head over to abuseipdb.com, login into your account and go to Account section
 * Click on the APIv2 tab, hit Create Key and name it whatever you wish (*name is not important*)
 * Copy the entire 80-character key from the window that pops up
-* Now edit your AbuseIPDB-CLI.sh file and replace <<YOUR_API_KEY_HERE>> with your actual key.
+* Now edit your AbuseIPDB-CLI.sh file and replace **<<YOUR_API_KEY>>** with your actual key.
 
 ## Syntax
 It's very simple:
