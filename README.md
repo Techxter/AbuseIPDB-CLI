@@ -7,7 +7,7 @@ A small script for looking up IPs in AbuseIPDB from your command line.
 ```
 $ chmod +x AbuseIPDB-CLI.sh
 ```
-* Install 'jq' and 'curl' unless you already have it installed. (example below for Ubuntu/apt users)
+* Install 'jq' and 'curl' unless you already have those installed. (example below for Ubuntu/apt users)
 ```
 $ sudo apt install jq curl
 ```
