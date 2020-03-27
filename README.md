@@ -7,12 +7,12 @@ A small script for looking up IPs in AbuseIPDB from your command line.
 ```
 $ chmod +x AbuseIPDB-CLI.sh
 ```
-* Install 'jq' and 'curl' unless you already have those installed. (example below for Ubuntu/apt users)
+* Install 'jq' and 'curl' unless you already have those installed. (*example below for Ubuntu/apt users*)
 ```
 $ sudo apt install jq curl
 ```
 * Now head over to abuseipdb.com, login into your account and go to Account section
-* Click on the APIv2 tab, hit Create Key and name it whatever you wish (name is not important)
+* Click on the APIv2 tab, hit Create Key and name it whatever you wish (*name is not important*)
 * Copy the entire 80-character key from the window that pops up
 * Now edit your AbuseIPDB-CLI.sh file and replace <<YOUR_API_KEY_HERE>> with your actual key.
 
