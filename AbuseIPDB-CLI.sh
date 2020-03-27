@@ -2,7 +2,7 @@
 
 #AbuseIPDB-CLI by Techxter, written from scratch for APIv2 but inspired by AbuseIPDB Tools by GethPrime for (now defunct) APIv1.
 #Get your API Key at www.abuseipdb.com/account/api and paste it below, replacing <<YOUR_API_KEY>>.
-#Be sure to install 'jq' and make this file executable.
+#This script requires 'jq' and 'curl'
 
 API_KEY="<<YOUR_API_KEY>>"
 IP="$1"
