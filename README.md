@@ -1,6 +1,7 @@
 # AbuseIPDB-CLI for Bash
 A small script for looking up IPs in AbuseIPDB from your command line.
-Written from scratch for APIv2 and inspired by AbuseIPDB Tools by GethPrime for (now defunct) APIv1.
+
+Written from scratch for APIv2 and inspired by AbuseIPDB Tools by *GethPrime* for (now defunct) APIv1.
 
 ## Installation
 * Clone the project or download the raw .sh file
