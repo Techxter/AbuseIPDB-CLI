@@ -8,7 +8,7 @@ API_KEY="<<YOUR_API_KEY>>"
 IP="$1"
 
 if [ $# -eq 0 ]; then
-	printf "\nUsage: iplookup.sh <IP> / Example: iplookup.sh 127.0.0.1\nWarning: Be sure to edit this file and provide your API key!\n\n"
+	printf "\nUsage: AbuseIPDB-CLI.sh <IP> / Example: ./AbuseIPDB-CLI.sh 127.0.0.1\nWarning: Be sure to edit this file and provide your API key!\n\n"
 	exit 1
 else
 	PULL_JSON=$(curl -G https://api.abuseipdb.com/api/v2/check \
